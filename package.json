@@ -1,0 +1,17 @@
+{
+  "name": "telegram-chatgpt-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.3.0",
+    "typescript": "^5.8.3"
+  }
+}
